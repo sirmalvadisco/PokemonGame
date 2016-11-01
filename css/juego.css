@@ -1,10 +1,11 @@
 body {
-
   font-family: 'Maven Pro', sans-serif;
+  font-size: 1em;
 	background-color: #2ECCFA;
   background-image: url(../img/PKM.png);
   background-size: 100%;
   background-position: fixed;
+  text-align: center;
 }
 
 
@@ -57,41 +58,62 @@ h1{
   font-weight: bold;
 }
 
+
+
+
+
 /*Index*/
+
+
+
+
+
 .inicio {
-  width: 75%;
-  height: 600px;
-  margin: 30px auto;
-  padding: 75px 50px;
+  width: 900px;
+  height: 550px;
+  margin: 20px auto 0 auto;;
+  padding: 1% 4%;
   background-color: #fff;
+  display: inline-block;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 30px;
 }
 
 h2{
-  font-size:50px;
+  margin-bottom: 5px;
+  font-size:350%;
   text-align: left;
   text-decoration: underline;
   letter-spacing: 2px;
   color: #2E9AFE;
 }
 h3{
-  font-size: 17px;
+  text-align: left;
+  margin: 3px;
+  font-size: 120%;
+}
+h4{
+  text-align: left;
+}
+ul{
+  margin: 0;
 }
 li{
+  text-align: left;
   line-height: 50px;
 }
 .descripcion {
-  width: 50%;
+  width:  50%;
   float: left;
 }
 .gif {
   width: 50%;
+  margin: 10% auto 0 auto;
   float: right;
 }
 .ejemplo{
-  width: 350px;
-  height: 350px;
+  width: 70%;
+  height: 100%;
   display: block;
   margin: 50px auto 0 auto;
 }
@@ -113,4 +135,3 @@ li{
   width: 50px;
   height: 50px;
 }
-
